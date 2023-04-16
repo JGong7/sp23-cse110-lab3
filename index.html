@@ -75,6 +75,8 @@
         </audio>
         <form>
             <fieldset>
+                <label for="web">Thoughts on web dev?</label>
+                <input type="text" id="web" name="web">
                 <p>How are you doing today?</p>
                 <input type="checkbox" id="good" name="good" value="good">
                 <label for="food">Good</label>
@@ -87,13 +89,26 @@
                 <label for="md">Markdown</label>
                 <br>
                 <label for="UCSD">How do you think of UCSD?</label>
-                <input type="text" id="UCSD" name="UCSD">
+                <input list="Thoughts" id="UCSD" name="UCSD">
+                <datalist id="Thoughts">
+                    <option value="Good!"></option>
+                    <option value="Bad!"></option>
+                </datalist>
                 <br>
                 <label for="date">What is today's date?</label>
                 <input type="date" id="date" name="date">
                 <br>
                 <label for="weather">Thoughts on today's weather?</label>
                 <textarea id="weather" name="weather"></textarea>
+                <br>
+                <label for="num">Choose your favorite number</label>
+                <select id="num">
+                    <option>1</option>
+                    <option>10</option>
+                    <option>100</option>
+                </select>
+                <br>
+                <button>Submit</button>
             </fieldset>
         </form>
     </main>

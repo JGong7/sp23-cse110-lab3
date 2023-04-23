@@ -1,8 +1,8 @@
 ---
-name: Custom issue template
-about: Breaking down tasks
+name: Custom Bug Report
+about: Reporting any bugs existing
 title: ''
-labels: brainstorm, documentation
+labels: bug, documentation
 assignees: JGong7
 
 ---

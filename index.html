@@ -3,12 +3,16 @@
   <head>
     <title>Meeting Minute</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+    </style>
   </head>
   <body>
     <header>
-        <h1><span id="Intro">Magic 8 Ball Brainstorm</span></h1>
+        <h1><span id="Intro" att="exp">Magic 8 Ball Brainstorm</span></h1>
         <details>
             <Summary>Click here for the detailed explanation of Magic 8 Ball</Summary>
             <p>The Magic 8 Ball is a plastic sphere, made to look like an oversized eight ball , that is used for fortune-telling or seeking advice.</p>
@@ -34,7 +38,7 @@
         </Section>
         <Section>
             <b>Agenda</b>
-            <p>
+            <p id="agenda">
                 For today, the general goal is to <Strong>introduce the team to the theme of the project and start
                     assigning roles to each person</Strong>.
             </p>
@@ -63,7 +67,7 @@
         <br>
         <b>Video recording of the meeting</b>
         <br>
-        <video controls>
+        <video controls width="25%" height="25%">
             <source src="hee.mp4" type="video/mp4">
             Your browser does not support the video tag
         </video>
@@ -74,7 +78,8 @@
             <source src="hi.wav" type="audio/wav">
             Your browser does not support the audio tag
         </audio>
-        <form>
+        <br>
+        <form id="form">
             <fieldset>
                 <label for="web">Thoughts on web dev?</label>
                 <input type="text" id="web" name="web">
@@ -112,6 +117,11 @@
                 <button>Submit</button>
             </fieldset>
         </form>
+        <div class="grid">
+            <p>This container is used to show grid use</p>
+            <h1>I'm on the upper right</h1>
+            <h2>I'm on the lower left</h2>
+        </div>
     </main>
     <hr>
     <footer>

@@ -1,0 +1,34 @@
+body{
+    /* This sets up the overall background color for the meeting minutes */
+    background-color: #e5eaf5;
+    color: rgb(0, 0, 0);
+}
+footer{
+    color: gray;
+    font-size: 1.5em;
+}
+header > details{
+    color: hsl(0, 0%, 50%);
+    margin: 10px;
+}
+#Intro{
+    border-style: dashed;
+    border-color: hsl(0, 0%, 50%);
+    border-width: 3px;
+    border-radius: 8px;
+    Padding: 4px 6px 4px 6px;
+    margin: 5px 5px 5px 5px;
+}
+nav > span{
+    border-style: solid;
+    border-color: gray;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 5px 5px 5px 5px;
+}
+nav > span > a{
+    text-decoration: none;
+    color: gray;
+}
